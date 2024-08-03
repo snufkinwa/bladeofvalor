@@ -1,0 +1,183 @@
+{ "compressionlevel":-1,
+ "editorsettings":
+    {
+     "chunksize":
+        {
+         "height":16,
+         "width":32
+        }
+    },
+ "height":8,
+ "infinite":false,
+ "layers":[
+        {
+         "data":[2, 1, 2, 1, 2, 1, 2, 1,
+            1, 2, 1, 2, 1, 2, 1, 2,
+            2, 1, 2, 1, 2, 1, 2, 1,
+            1, 2, 1, 2, 1, 2, 1, 2,
+            2, 1, 2, 1, 2, 1, 2, 1,
+            1, 2, 1, 2, 1, 2, 1, 2,
+            2, 1, 2, 1, 2, 1, 2, 1,
+            1, 2, 1, 2, 1, 2, 1, 2],
+         "height":8,
+         "id":1,
+         "name":"Tile Layer 1",
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":8,
+         "x":0,
+         "y":0
+        }, 
+        {
+         "data":[4, 3, 0, 0, 0, 0, 14, 13,
+            5, 3, 0, 0, 0, 0, 14, 9,
+            6, 3, 0, 0, 0, 0, 14, 8,
+            7, 3, 0, 0, 0, 0, 14, 11,
+            12, 3, 0, 0, 0, 0, 14, 10,
+            6, 3, 0, 0, 0, 0, 14, 8,
+            5, 3, 0, 0, 0, 0, 14, 9,
+            4, 3, 0, 0, 0, 0, 14, 13],
+         "height":8,
+         "id":2,
+         "name":"Tile Layer 2",
+         "offsetx":8,
+         "offsety":-8,
+         "opacity":1,
+         "type":"tilelayer",
+         "visible":true,
+         "width":8,
+         "x":0,
+         "y":0
+        }],
+ "nextlayerid":6,
+ "nextobjectid":1,
+ "orientation":"isometric",
+ "renderorder":"right-down",
+ "tiledversion":"1.11.0",
+ "tileheight":16,
+ "tilesets":[
+        {
+         "columns":0,
+         "firstgid":1,
+         "grid":
+            {
+             "height":1,
+             "orientation":"orthogonal",
+             "width":1
+            },
+         "margin":0,
+         "name":"chessboard",
+         "spacing":0,
+         "tilecount":2,
+         "tileheight":21,
+         "tiles":[
+                {
+                 "id":0,
+                 "image":"tile2.png",
+                 "imageheight":21,
+                 "imagewidth":32
+                }, 
+                {
+                 "id":1,
+                 "image":"tile.png",
+                 "imageheight":21,
+                 "imagewidth":32
+                }],
+         "tilewidth":32
+        }, 
+        {
+         "columns":0,
+         "firstgid":3,
+         "grid":
+            {
+             "height":1,
+             "orientation":"orthogonal",
+             "width":1
+            },
+         "margin":0,
+         "name":"chess-piece",
+         "spacing":0,
+         "tilecount":12,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "id":0,
+                 "image":"pawn_b.png",
+                 "imageheight":32,
+                 "imagewidth":16
+                }, 
+                {
+                 "id":1,
+                 "image":"rook_b.png",
+                 "imageheight":32,
+                 "imagewidth":16
+                }, 
+                {
+                 "id":2,
+                 "image":"knight_b.png",
+                 "imageheight":32,
+                 "imagewidth":16
+                }, 
+                {
+                 "id":3,
+                 "image":"bishop_b.png",
+                 "imageheight":32,
+                 "imagewidth":16
+                }, 
+                {
+                 "id":4,
+                 "image":"queen_b.png",
+                 "imageheight":32,
+                 "imagewidth":16
+                }, 
+                {
+                 "id":5,
+                 "image":"bishop_w.png",
+                 "imageheight":32,
+                 "imagewidth":16
+                }, 
+                {
+                 "id":6,
+                 "image":"knight_w.png",
+                 "imageheight":32,
+                 "imagewidth":16
+                }, 
+                {
+                 "id":7,
+                 "image":"queen_w.png",
+                 "imageheight":32,
+                 "imagewidth":16
+                },
+            
+                {
+                 "id":8,
+                 "image":"king_w.png",
+                 "imageheight":32,
+                 "imagewidth":16
+                }, 
+                {
+                 "id":9,
+                 "image":"king_b.png",
+                 "imageheight":32,
+                 "imagewidth":16
+                }, 
+                {
+                 "id":10,
+                 "image":"rook_w.png",
+                 "imageheight":32,
+                 "imagewidth":16
+                }, 
+                {
+                 "id":11,
+                 "image":"pawn_w.png",
+                 "imageheight":32,
+                 "imagewidth":16
+                }],
+         "tilewidth":16
+        }],
+ "tilewidth":32,
+ "type":"map",
+ "version":"1.10",
+ "width":8
+}
