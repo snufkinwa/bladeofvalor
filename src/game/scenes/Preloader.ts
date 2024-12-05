@@ -38,9 +38,6 @@ export class Preloader extends Scene {
         this.load.image("rook_w", "images/rook_w.png");
         this.load.image("rook_b", "images/rook_b.png");
 
-        this.load.spritesheet("heroine", "sprites/Light with FX.png");
-        this.load.spritesheet("dark_heroine", "sprites/Dark with FX.png");
-
         this.load.tilemapTiledJSON("isochess", "tilemap/isochess.json");
     }
 
