@@ -2,8 +2,9 @@ import { Boot } from "./scenes/Boot";
 import { GameOver } from "./scenes/GameOver";
 import { Chessboard as PauseMenu } from "./scenes/ChessBoard";
 import { Intro } from "./scenes/Intro";
-import { Platformer as MainGame } from "./scenes/Platformer";
-import { FinalBattle } from "./scenes/FinalBattle";
+import { Platformer as Opening } from "./scenes/AWAKENING";
+import { Corruption as Middlegame } from "./scenes/CORRUPTION";
+import { FinalBattle as Endgame } from "./scenes/FinalBattle";
 import { MainMenu } from "./scenes/MainMenu";
 import { AUTO, Game } from "phaser";
 import { Preloader } from "./scenes/Preloader";
@@ -22,8 +23,9 @@ const config: Phaser.Types.Core.GameConfig = {
         MainMenu,
         Intro,
         PauseMenu,
-        MainGame,
-        FinalBattle,
+        Opening,
+        Middlegame,
+        Endgame,
         GameOver,
     ],
 };
