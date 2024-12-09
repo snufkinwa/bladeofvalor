@@ -2,168 +2,205 @@
     "cutscenes": [
         {
             "phase": "Opening Cutscene (Awakening Phase)",
-            "setting": "Elara awakens in a crystalline void, where reality feels fragile and distorted.",
+            "setting": "Elara awakens in a crystalline void, trembling and disoriented, her memories fragmenting like shards of glass.",
             "dialogue": [
                 {
+                    "speaker": "Elara",
+                    "line": "The shadows... they dance like memories I can't quite catch..."
+                },
+                {
                     "speaker": "Purple Architect",
-                    "line": "You awaken in a world of my design, Elara. Fragile yet unyielding, like you."
+                    "line": "Dreams are more real than memories here, little light."
                 },
                 {
                     "speaker": "Elara",
-                    "line": "Who are you? What is this place?"
+                    "line": "But I feel so hollow inside... like something precious was taken."
                 },
                 {
                     "speaker": "Purple Architect",
-                    "line": "I am the Architect, the mind behind this creation. As for you... you are its final hope—or its undoing."
-                },
-                {
-                    "speaker": "Elara",
-                    "line": "I don’t play by someone else’s rules."
-                },
-                {
-                    "speaker": "Purple Architect",
-                    "line": "Yet you are here. Every step you take has already been set in motion. The question is, will you follow the path, or fracture it?"
+                    "line": "What's empty can be filled. What's broken can be... transformed."
                 }
             ]
         },
         {
             "phase": "Corruption Phase",
-            "setting": "The world around Elara begins to splinter. Shadows creep into the edges of her vision, distorting her reality.",
+            "setting": "The world darkens, and Elara finds herself drawn to the shadows, fighting her own fear and fascination.",
             "dialogue": [
                 {
                     "speaker": "Weird Entity",
-                    "line": "Look at you, a creature of light now cloaked in shadow. How much of yourself remains?"
+                    "line": "The darkness calls to you, doesn't it? Like a lullaby you've always known."
                 },
                 {
                     "speaker": "Elara",
-                    "line": "I use the shadows to survive. They don’t control me."
+                    "line": "It feels like drowning in starlight..."
                 },
                 {
                     "speaker": "Weird Entity",
-                    "line": "You tell yourself that, but with each step, you fall deeper. The cracks in this world mirror the cracks in you."
+                    "line": "Sweet child, surrender is just another dance."
                 },
                 {
                     "speaker": "Elara",
-                    "line": "I’m still me."
+                    "line": "If I fall into that dance... will any part of me remain?"
                 },
                 {
                     "speaker": "Weird Entity",
-                    "line": "Are you? Or are you just another fragment of the chaos you fight to contain?"
+                    "line": "That's the beautiful mystery, isn't it?"
+                }
+            ]
+        },
+        {
+            "phase": "Blacksmith Meeting",
+            "setting": "A forge where reality bends like molten glass",
+            "dialogue": [
+                {
+                    "speaker": "Blacksmith",
+                    "line": "Your blade remembers what you've forgotten..."
+                },
+                {
+                    "speaker": "Elara",
+                    "line": "The metal... it sings like the shadows do."
+                },
+                {
+                    "speaker": "Blacksmith",
+                    "line": "All things here sing of home. Even the broken ones."
+                }
+            ]
+        },
+        {
+            "phase": "Weird Entity Confrontation",
+            "setting": "The world ripples and tears like wet paper, colors bleeding wrong",
+            "dialogue": [
+                {
+                    "speaker": "Warrior",
+                    "line": "The walls... they remember you, sister."
+                },
+                {
+                    "speaker": "Elara",
+                    "line": "No... the reflection is wrong..."
+                },
+                {
+                    "speaker": "Cloaked Entity",
+                    "line": "Look closer. Every darkling bears your face."
+                },
+                {
+                    "speaker": "Elara",
+                    "line": "You're lying..."
+                },
+                {
+                    "speaker": "Weird Entity",
+                    "line": "Poor little star, thinking itself unique. We all burned once."
                 }
             ]
         },
         {
             "phase": "Pre-Final Battle",
-            "setting": "Elara confronts the Purple Architect at the heart of the collapsing simulation, where reality teeters between stability and ruin.",
+            "setting": "Reality fractures around Elara as she confronts the truth, her hands shaking even as she stands her ground.",
             "dialogue": [
                 {
                     "speaker": "Purple Architect",
-                    "line": "You’ve made it this far, but for what? To destroy everything I’ve built?"
+                    "line": "You’ve come so far, yet your hands still tremble. Do you doubt yourself?"
                 },
                 {
                     "speaker": "Elara",
-                    "line": "What you’ve built is a prison. It needs to fall."
+                    "line": "Every moment. But doubt is better than blindness."
                 },
                 {
                     "speaker": "Purple Architect",
-                    "line": "And what rises in its place? Chaos? Emptiness? The world demands structure to endure."
+                    "line": "You think doubt makes you strong? It is a crack in your foundation."
                 },
                 {
                     "speaker": "Elara",
-                    "line": "The world demands freedom. What you’ve made is not life—it’s control."
+                    "line": "Maybe. But cracks let the light in, don’t they?"
                 },
                 {
                     "speaker": "Purple Architect",
-                    "line": "Control is survival. Without it, everything crumbles."
+                    "line": "And yet the darkness always seeps through. Tell me, Elara: will you embrace it, or flee from it?"
                 },
                 {
                     "speaker": "Elara",
-                    "line": "Maybe things need to crumble before they can truly live."
+                    "line": "I don’t know. But I’ll find my answer, one step at a time."
                 }
             ]
         },
         {
             "phase": "Final Confrontation (The Knight)",
-            "setting": "Elara faces the Knight, a towering figure embodying strength and order, surrounded by a world on the verge of collapse.",
+            "setting": "At the precipice of destruction, Elara faces her reflection in the Knight's armor, seeing both her light and darkness.",
             "dialogue": [
                 {
                     "speaker": "Knight",
-                    "line": "You stand at the edge of annihilation, yet you defy it. Why?"
+                    "line": "Your heart wavers between worlds. How can you hope to prevail?"
                 },
                 {
                     "speaker": "Elara",
-                    "line": "Because what you guard isn’t worth saving."
+                    "line": "Because I'm done trying to be whole. I accept my brokenness."
                 },
                 {
                     "speaker": "Knight",
-                    "line": "Without order, there is nothing but ruin. Your defiance will bring destruction."
+                    "line": "Strength comes from certainty. You have none."
                 },
                 {
                     "speaker": "Elara",
-                    "line": "What you call order is a lie. I’ll create something better, even if it means breaking everything you’ve built."
-                },
-                {
-                    "speaker": "Knight",
-                    "line": "Then prove your resolve. Show me your strength."
+                    "line": "Maybe not. But it makes me free. Even if I'm afraid... even if I fail..."
                 }
             ]
         }
     ],
     "endings": {
         "light": {
-            "setting": "The simulation crumbles, its fragments dissolving into light. Elara stands amidst the chaos, resolute.",
+            "setting": "As the simulation dissolves, Elara's tears mix with the falling light.",
             "dialogue": [
                 {
                     "speaker": "Elara",
-                    "line": "Sometimes, to save something, you have to let it go. No more cages. No more control."
+                    "line": "I wish... I wish there had been another way..."
                 },
                 {
                     "speaker": "Purple Architect",
-                    "line": "You think you’ve freed them, but without structure, they will be lost."
+                    "line": "You would unmake paradise?"
                 },
                 {
                     "speaker": "Elara",
-                    "line": "Then they’ll find their own way, without you."
+                    "line": "Paradise was the first cage ever built."
                 }
             ]
         },
         "dark": {
-            "setting": "Elara embraces the power of the shadows, taking control of the simulation as it reshapes itself around her.",
+            "setting": "The shadows embrace Elara as she claims the throne, her voice breaking with power and regret.",
             "dialogue": [
                 {
                     "speaker": "Elara",
-                    "line": "Your rules have failed. This world will have new ones—mine."
+                    "line": "The night... it feels like coming home..."
                 },
                 {
                     "speaker": "Purple Architect",
-                    "line": "At last, you see the truth. Control is the only way."
+                    "line": "The throne reshapes itself for each dreamer."
                 },
                 {
                     "speaker": "Elara",
-                    "line": "Not your control. Mine. This world will bow to me now."
+                    "line": "Then let it bleed. Let it birth new stars..."
                 }
             ]
         },
         "neutral": {
-            "setting": "Elara merges with the collapsing simulation, stabilizing it at the cost of her own identity.",
+            "setting": "Elara begins to merge with the world, her form dissolving as she makes her final choice.",
             "dialogue": [
                 {
                     "speaker": "Elara",
-                    "line": "Balance isn’t found in destruction or control. It’s found in sacrifice."
+                    "line": "I'm so tired of fighting... maybe peace is worth this price."
                 },
                 {
                     "speaker": "Knight",
-                    "line": "You would bind yourself to this world, knowing it will consume you?"
+                    "line": "Your sacrifice will not be remembered."
                 },
                 {
                     "speaker": "Elara",
-                    "line": "If it means others can be free, then yes."
+                    "line": "Some things are worth doing even if no one knows. Perhaps peace lies in the space between breaths..."
                 },
                 {
                     "speaker": "Purple Architect",
-                    "line": "Perhaps... there is strength in surrender after all."
+                    "line": "In the end, you found your own path after all."
                 }
             ]
         }
     }
 }
+
