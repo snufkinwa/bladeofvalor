@@ -6,30 +6,28 @@
 
 <p align="center"><em>Where a struggle between humanity and its creations quietly persists, can you possess free will, or are you part of a greater design?</em></p>
 
-
-
 **Blade of Valor** is a 2D game that combines the power of Phaser 3, Next.js, and a Flask backend to deliver a unique gameplay experience. The game explores themes of free will and the consequences of actions through a storyline inspired by Grimes' 'Player of Games' and aspects of Legend(1985). The protagonist, Elara, navigates a world filled with ghouls, using her skills in sword combat.
 
 ## Introduction
 
-Blade of Valor is a 2D action-adventure game built using Phaser 3 for the game engine and Next.js for the front-end framework. The game leverages a Flask backend integrated with TensorFlow and Keras to provide AI-driven gameplay mechanics.
+Blade of Valor is a 2D action-adventure game built using Phaser 3 for the game engine and Next.js for the front-end framework. The game leverages a FastAPI backend integrated with TensorFlow and Keras to provide AI-driven gameplay mechanics.
 
 ## Versions
 
 This project includes:
 
-- [Phaser 3.80.1](https://github.com/phaserjs/phaser)
-- [Next.js 14.2.3](https://github.com/vercel/next.js)
-- [TypeScript 5](https://github.com/microsoft/TypeScript)
-- [Flask](https://flask.palletsprojects.com/)
-- [TensorFlow](https://www.tensorflow.org/)
-- [Keras](https://keras.io/)
+-   [Phaser 3.80.1](https://github.com/phaserjs/phaser)
+-   [Next.js 14.2.3](https://github.com/vercel/next.js)
+-   [TypeScript 5](https://github.com/microsoft/TypeScript)
+-   [FastAPI](https://fastapi.tiangolo.com/)
+-   [Stockfish](https://www.tensorflow.org/)
+-   [WebSockets]()
 
 ## Requirements
 
-- [Node.js](https://nodejs.org)
-- [Python 3](https://www.python.org/)
-- Flask and other Python dependencies (specified in `requirements.txt`)
+-   [Node.js](https://nodejs.org)
+-   [Python 3](https://www.python.org/)
+-   Flask and other Python dependencies (specified in `requirements.txt`)
 
 ## Installation
 
@@ -52,15 +50,14 @@ npm install
 pip install -r requirements.txt
 ```
 
-4. Start the Flask backend:
+4. Start the FastAPi backend:
 
 ```bash
 cd api
-export FLASK_APP=app.py
-flask run
+
 ```
 
-The Flask server will run on `http://localhost:5000` by default.
+The FastAPI server will run on `http://localhost:8000` by default.
 
 5. Start the Next.js development server:
 
@@ -72,10 +69,10 @@ The development server runs on `http://localhost:8080` by default.
 
 ## Project Structure
 
-- `src/` - Contains the Next.js source code.
-- `public/` - Static assets for the game.
-- `api/` - Flask backend code.
-- `game/` - Phaser game code.
+-   `src/` - Contains the Next.js source code.
+-   `public/` - Static assets for the game.
+-   `api/` - Flask backend code.
+-   `game/` - Phaser game code.
 
 ## React Bridge
 
@@ -83,10 +80,11 @@ The `PhaserGame.tsx` component serves as the bridge between React and Phaser. It
 
 ## Backend API
 
-The backend API is built with Flask, TensorFlow, and Keras. It provides AI-driven features for the game, enhancing the overall gameplay experience. The API endpoints are defined in `app.py`.
+The backend API is built with FastAPI and Stockfish. It provides AI-driven features for the game, enhancing the overall gameplay experience. The API endpoints are defined in `main.py`.
 
 ## Screenshots
-Coming soon 
+
+Coming soon
 
 <p align="center">
 <img src="https://imgur.com/tqJdAB3.png" width="500">

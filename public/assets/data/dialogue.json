@@ -1,0 +1,169 @@
+{
+    "cutscenes": [
+        {
+            "phase": "Opening Cutscene (Awakening Phase)",
+            "setting": "Elara awakens in a crystalline void, where reality feels fragile and distorted.",
+            "dialogue": [
+                {
+                    "speaker": "Purple Architect",
+                    "line": "You awaken in a world of my design, Elara. Fragile yet unyielding, like you."
+                },
+                {
+                    "speaker": "Elara",
+                    "line": "Who are you? What is this place?"
+                },
+                {
+                    "speaker": "Purple Architect",
+                    "line": "I am the Architect, the mind behind this creation. As for you... you are its final hope—or its undoing."
+                },
+                {
+                    "speaker": "Elara",
+                    "line": "I don’t play by someone else’s rules."
+                },
+                {
+                    "speaker": "Purple Architect",
+                    "line": "Yet you are here. Every step you take has already been set in motion. The question is, will you follow the path, or fracture it?"
+                }
+            ]
+        },
+        {
+            "phase": "Corruption Phase",
+            "setting": "The world around Elara begins to splinter. Shadows creep into the edges of her vision, distorting her reality.",
+            "dialogue": [
+                {
+                    "speaker": "Weird Entity",
+                    "line": "Look at you, a creature of light now cloaked in shadow. How much of yourself remains?"
+                },
+                {
+                    "speaker": "Elara",
+                    "line": "I use the shadows to survive. They don’t control me."
+                },
+                {
+                    "speaker": "Weird Entity",
+                    "line": "You tell yourself that, but with each step, you fall deeper. The cracks in this world mirror the cracks in you."
+                },
+                {
+                    "speaker": "Elara",
+                    "line": "I’m still me."
+                },
+                {
+                    "speaker": "Weird Entity",
+                    "line": "Are you? Or are you just another fragment of the chaos you fight to contain?"
+                }
+            ]
+        },
+        {
+            "phase": "Pre-Final Battle",
+            "setting": "Elara confronts the Purple Architect at the heart of the collapsing simulation, where reality teeters between stability and ruin.",
+            "dialogue": [
+                {
+                    "speaker": "Purple Architect",
+                    "line": "You’ve made it this far, but for what? To destroy everything I’ve built?"
+                },
+                {
+                    "speaker": "Elara",
+                    "line": "What you’ve built is a prison. It needs to fall."
+                },
+                {
+                    "speaker": "Purple Architect",
+                    "line": "And what rises in its place? Chaos? Emptiness? The world demands structure to endure."
+                },
+                {
+                    "speaker": "Elara",
+                    "line": "The world demands freedom. What you’ve made is not life—it’s control."
+                },
+                {
+                    "speaker": "Purple Architect",
+                    "line": "Control is survival. Without it, everything crumbles."
+                },
+                {
+                    "speaker": "Elara",
+                    "line": "Maybe things need to crumble before they can truly live."
+                }
+            ]
+        },
+        {
+            "phase": "Final Confrontation (The Knight)",
+            "setting": "Elara faces the Knight, a towering figure embodying strength and order, surrounded by a world on the verge of collapse.",
+            "dialogue": [
+                {
+                    "speaker": "Knight",
+                    "line": "You stand at the edge of annihilation, yet you defy it. Why?"
+                },
+                {
+                    "speaker": "Elara",
+                    "line": "Because what you guard isn’t worth saving."
+                },
+                {
+                    "speaker": "Knight",
+                    "line": "Without order, there is nothing but ruin. Your defiance will bring destruction."
+                },
+                {
+                    "speaker": "Elara",
+                    "line": "What you call order is a lie. I’ll create something better, even if it means breaking everything you’ve built."
+                },
+                {
+                    "speaker": "Knight",
+                    "line": "Then prove your resolve. Show me your strength."
+                }
+            ]
+        }
+    ],
+    "endings": {
+        "light": {
+            "setting": "The simulation crumbles, its fragments dissolving into light. Elara stands amidst the chaos, resolute.",
+            "dialogue": [
+                {
+                    "speaker": "Elara",
+                    "line": "Sometimes, to save something, you have to let it go. No more cages. No more control."
+                },
+                {
+                    "speaker": "Purple Architect",
+                    "line": "You think you’ve freed them, but without structure, they will be lost."
+                },
+                {
+                    "speaker": "Elara",
+                    "line": "Then they’ll find their own way, without you."
+                }
+            ]
+        },
+        "dark": {
+            "setting": "Elara embraces the power of the shadows, taking control of the simulation as it reshapes itself around her.",
+            "dialogue": [
+                {
+                    "speaker": "Elara",
+                    "line": "Your rules have failed. This world will have new ones—mine."
+                },
+                {
+                    "speaker": "Purple Architect",
+                    "line": "At last, you see the truth. Control is the only way."
+                },
+                {
+                    "speaker": "Elara",
+                    "line": "Not your control. Mine. This world will bow to me now."
+                }
+            ]
+        },
+        "neutral": {
+            "setting": "Elara merges with the collapsing simulation, stabilizing it at the cost of her own identity.",
+            "dialogue": [
+                {
+                    "speaker": "Elara",
+                    "line": "Balance isn’t found in destruction or control. It’s found in sacrifice."
+                },
+                {
+                    "speaker": "Knight",
+                    "line": "You would bind yourself to this world, knowing it will consume you?"
+                },
+                {
+                    "speaker": "Elara",
+                    "line": "If it means others can be free, then yes."
+                },
+                {
+                    "speaker": "Purple Architect",
+                    "line": "Perhaps... there is strength in surrender after all."
+                }
+            ]
+        }
+    }
+}

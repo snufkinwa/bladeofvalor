@@ -1,6 +1,5 @@
-import React, { useRef } from 'react';
-import { IRefPhaserGame, PhaserGame } from './game/PhaserGame';
-
+import React, { useRef } from "react";
+import { IRefPhaserGame, PhaserGame } from "./game/PhaserGame";
 
 function App() {
     // Reference to the PhaserGame component (game and scene are exposed)
@@ -14,3 +13,4 @@ function App() {
 }
 
 export default App;
+
