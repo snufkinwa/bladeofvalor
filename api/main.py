@@ -3,12 +3,15 @@ from fastapi.middleware.cors import CORSMiddleware
 from typing import Dict, Optional
 import asyncio
 import chess
+import os
 from datetime import datetime
 from pydantic import ValidationError
 
-from src.core.game_state import GameStateManager
-from src.config import Settings
-from src.exceptions import GameError, InvalidMoveError, GameLimitExceeded
+from api.core.game_state import GameStateManager
+from api.config.settings import Settings
+from api.exceptions.errors import GameError, GameLimitExceeded
+
+print("Environment Variables Passed to Settings:", os.environ)
 
 settings = Settings()
 app = FastAPI()
@@ -69,10 +72,7 @@ async def websocket_endpoint(websocket: WebSocket, game_id: str):
             connection_manager.last_activity[game_id] = datetime.now()
             
             try:
-                if data["type"] == "move":
-                    if not chess.Move.from_uci(data["move"]):
-                        raise InvalidMoveError("Invalid move format")
-                        
+                if data["type"] == "move":             
                     result = game.make_move(data["move"], data.get("use_dark_power", False))
                     wave = game.get_darkling_wave()
                     stats = game.darkness_system.get_stats()
@@ -85,8 +85,6 @@ async def websocket_endpoint(websocket: WebSocket, game_id: str):
                     })
             except ValidationError as e:
                 await websocket.send_json({"status": "error", "message": "Invalid request format"})
-            except InvalidMoveError as e:
-                await websocket.send_json({"status": "error", "message": str(e)})
             except GameError as e:
                 await websocket.send_json({"status": "error", "message": str(e)})
                 

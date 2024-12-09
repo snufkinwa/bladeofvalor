@@ -1,5 +1,5 @@
-from src.models.enums import DarknessState
-from src.models.entities import DarknessStats
+from api.models.enums import DarknessState
+from api.models.entities import DarknessStats
 
 class DarknessSystem:
     def __init__(self):

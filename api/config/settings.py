@@ -7,6 +7,7 @@ class Settings(BaseSettings):
     ENGINE_HASH: int = 512
     GAME_TIMEOUT: int = 3600
     MAX_GAMES: int = 100
-    
+
     class Config:
         env_file = ".env"
+        env_prefix = "APP_"

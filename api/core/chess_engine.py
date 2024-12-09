@@ -1,8 +1,8 @@
 from random import random, choice
 import chess.engine
-from src.models.enums import DarknessState, GamePhase
-from src.models.entities import DarklingWave, GameState
-from src.core.darkness import DarknessSystem
+from api.models.enums import DarknessState, GamePhase
+from api.models.entities import DarklingWave, GameState
+from api.core.darkness import DarknessSystem
 
 class DarkChessEngine:
     def __init__(self):
