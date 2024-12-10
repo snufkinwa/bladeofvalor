@@ -16,18 +16,18 @@ Blade of Valor is a 2D action-adventure game built using Phaser 3 for the game e
 
 This project includes:
 
--   [Phaser 3.80.1](https://github.com/phaserjs/phaser)
--   [Next.js 14.2.3](https://github.com/vercel/next.js)
--   [TypeScript 5](https://github.com/microsoft/TypeScript)
--   [FastAPI](https://fastapi.tiangolo.com/)
--   [Stockfish](https://www.tensorflow.org/)
--   [WebSockets]()
+- [Phaser 3.80.1](https://github.com/phaserjs/phaser)
+- [Next.js 14.2.3](https://github.com/vercel/next.js)
+- [TypeScript 5](https://github.com/microsoft/TypeScript)
+- [FastAPI](https://fastapi.tiangolo.com/)
+- [Stockfish]()
+- [WebSockets]()
 
 ## Requirements
 
--   [Node.js](https://nodejs.org)
--   [Python 3](https://www.python.org/)
--   Flask and other Python dependencies (specified in `requirements.txt`)
+- [Node.js](https://nodejs.org)
+- [Python 3](https://www.python.org/)
+- FastAPI and other Python dependencies (specified in `requirements.txt`)
 
 ## Installation
 
@@ -69,10 +69,10 @@ The development server runs on `http://localhost:8080` by default.
 
 ## Project Structure
 
--   `src/` - Contains the Next.js source code.
--   `public/` - Static assets for the game.
--   `api/` - Flask backend code.
--   `game/` - Phaser game code.
+- `src/` - Contains the Next.js source code.
+- `public/` - Static assets for the game.
+- `api/` - Flask backend code.
+- `game/` - Phaser game code.
 
 ## React Bridge
 

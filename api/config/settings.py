@@ -1,7 +1,7 @@
 from pydantic_settings import BaseSettings
 
 class Settings(BaseSettings):
-    STOCKFISH_PATH: str = "stockfish"
+    STOCKFISH_PATH: str = "/usr/local/bin/stockfish"
     ENGINE_DIFFICULTY: int = 20
     ENGINE_THREADS: int = 2
     ENGINE_HASH: int = 512

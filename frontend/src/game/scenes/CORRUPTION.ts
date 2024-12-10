@@ -3,7 +3,7 @@ import { Scene } from "phaser";
 
 export class Corruption extends Scene {
     constructor() {
-        super("FinalBattle");
+        super("Corruption");
     }
 
     create() {
@@ -20,3 +20,4 @@ export class Corruption extends Scene {
         this.scene.start("Game Over");
     }
 }
+
