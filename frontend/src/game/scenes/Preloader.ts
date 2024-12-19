@@ -39,6 +39,16 @@ export class Preloader extends Scene {
         this.load.image("rook_b", "images/rook_b.png");
 
         this.load.tilemapTiledJSON("isochess", "tilemap/isochess.json");
+
+        this.load.atlas(
+            "architect",
+            "data/architect.png",
+            "data/architect.json"
+        );
+
+        this.load.atlas("light", "sprites/light.png", "data/light.json");
+
+        this.load.atlas("dark", "sprites/dark.png", "data/dark.json");
     }
 
     create() {
